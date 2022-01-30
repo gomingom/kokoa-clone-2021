@@ -16,15 +16,6 @@
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
   /* position: absolute 사용하게되면 default는 body를 향한다. */
   /* 그 다음은 가장 인접한 부모 클래스 중 position: relative가 적용된 항목을 향한다. */
   position: absolute;
